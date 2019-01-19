@@ -14,7 +14,7 @@ public class Main implements IXposedHookLoadPackage, IXposedHookInitPackageResou
         if (!lpparam.packageName.equals("com.gedoor.monkeybook"))
             return;
 
-        XposedHelpers.findAndHookMethod("com.kunfei.bookshelf.MApplication", lpparam.classLoader, "g", new XC_MethodHook() {
+        XposedHelpers.findAndHookMethod("com.kunfei.bookshelf.MApplication", lpparam.classLoader, "h", new XC_MethodHook() {
 
                     @Override
                     protected void afterHookedMethod(MethodHookParam param) throws Throwable {

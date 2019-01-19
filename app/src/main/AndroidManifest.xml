@@ -12,7 +12,7 @@
         android:value="true" />
     <meta-data
         android:name="xposeddescription"
-        android:value="Current: 2.19.010108）" />
+        android:value="Current: 2.19.011816" />
     <meta-data
         android:name="xposedminversion"
         android:value="53" />
